@@ -1,5 +1,6 @@
 *{
 	box-sizing: border-box;
+	transition: all .3s;
 }
 
 html, body{
@@ -20,12 +21,13 @@ h1, p{
 	width: 100%;
 	height: 100vh;
 	background: linear-gradient(29deg, #ff512f, #dd2476);
+	padding: 0 30px;
 }
 
 /* form */
 
 .form{
-	width: 460px;
+	max-width: 460px;
 	border-radius: 4px;
   	background: #fff;
   	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
@@ -33,7 +35,7 @@ h1, p{
   	position: relative;
   	top: 50%;
   	transform: translateY(-50%);
-  	padding: 27px 30px 54px 27px;
+  	padding: 30px 27px 54px 27px;
   	font-family: Arial, sans-serif;
 }
 
@@ -44,6 +46,8 @@ h1, p{
 	width: 24px;
   	height: 24px;
   	background: url(../img/sign-up-icon.png) no-repeat;
+  	background-size: cover;
+  	margin-bottom: -2px;
 }
 
 .form__title{
